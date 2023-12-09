@@ -1,0 +1,10 @@
+.loading-starter {
+  animation: loadingAnimation 3s forwards;
+  animation-delay: 1s;
+}
+.loading-line-box-container {
+  animation: loadingLineBoxContainer 5s forwards;
+}
+.fadeInScale {
+  animation: FadeInScale 1s forwards;
+}
