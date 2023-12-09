@@ -21,10 +21,11 @@ h6 {
   font-style: normal;
   font-weight: 700;
   line-height: 125%;
+  padding-bottom: 8px;
 }
 
 h1 {
-  font-size: 72px;
+  @apply text-3xl md:text-4xl lg:text-5xl;
 }
 
 h2 {
@@ -45,4 +46,17 @@ h5 {
 
 h6 {
   font-size: 24px;
+}
+
+.loading-starter {
+  animation: loadingAnimation 3s forwards;
+}
+
+@keyframes loadingAnimation {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
 }
