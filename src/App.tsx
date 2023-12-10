@@ -1,11 +1,16 @@
-import { Hero, Navbar } from "./components";
+import { Hero, Navbar, ProjectsSection } from "./components";
 
 function App() {
   return (
-    <header>
-      <Navbar />
-      <Hero />
-    </header>
+    <>
+      <header className="space-y-4">
+        <Navbar />
+        <Hero />
+      </header>
+      <main className="space-y-4">
+        <ProjectsSection />
+      </main>
+    </>
   );
 }
 
