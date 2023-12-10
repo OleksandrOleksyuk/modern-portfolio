@@ -1,11 +1,11 @@
 @keyframes loadingAnimation {
   0% {
     width: 0%;
-    background-color: #d1d5db;
+    background-color: #0284c7;
   }
   100% {
     width: 100%;
-    background-color: #d1d5db;
+    background-color: #0284c7;
   }
 }
 

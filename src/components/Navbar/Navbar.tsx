@@ -10,11 +10,11 @@ const Navbar: React.FC = () => {
   return (
     <nav className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src={logoWhite} width={150} alt="Flowbite Logo" />
+        <img src={logoWhite} width={200} alt="Flowbite Logo" />
       </a>
       <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-        <Button type="button" color="primary">
-          Contattami
+        <Button type="button" color="primary" link="contact">
+          Contact
         </Button>
         <div className="md:hidden flex justify-center items-center">
           {isOpenMenu ? (
