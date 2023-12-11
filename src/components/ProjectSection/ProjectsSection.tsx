@@ -8,12 +8,12 @@ const ProjectsSection: React.FC = () => {
       <div className="text-center space-y-4">
         <h2>Our Work</h2>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam
-          saepe, fugiat labore amet debitis adipisci a at ab porro excepturi!
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam saepe, fugiat labore amet debitis
+          adipisci a at ab porro excepturi!
         </p>
       </div>
       {projectEl.map((p) => (
-        <Project {...p} />
+        <Project key={p.id} {...p} />
       ))}
     </section>
   );

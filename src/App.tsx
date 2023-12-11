@@ -1,4 +1,4 @@
-import { Hero, Navbar, ProjectsSection } from "./components";
+import { Contacts, Hero, Navbar, ProjectsSection } from "./components";
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       </header>
       <main className="space-y-4">
         <ProjectsSection />
+        <Contacts />
       </main>
     </>
   );

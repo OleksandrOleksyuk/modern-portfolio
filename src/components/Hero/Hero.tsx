@@ -12,10 +12,8 @@ const Hero: React.FC = () => {
         Hey there, I'm Oleksandr, your Web Developer.
       </h1>
       <p className="mb-8 text-lg  lg:text-xl sm:px-16 xl:px-48">
-        Welcome to your digital transformation! I specialize in crafting modern
-        and captivating websites tailored for entrepreneurs and freelance
-        professionals. Let's bring your ideas to life with a website that truly
-        stands out.
+        Welcome to your digital transformation! I specialize in crafting modern and captivating websites tailored for
+        entrepreneurs and freelance professionals. Let's bring your ideas to life with a website that truly stands out.
       </p>
       <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
         <Button type="button" color="primary" link="#">
