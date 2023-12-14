@@ -1,13 +1,14 @@
-import { Contacts, Hero, Navbar, ProjectsSection } from "./components";
+import { About, Contacts, Hero, Navbar, ProjectsSection } from "./components";
 
 function App() {
   return (
     <>
-      <header className="space-y-4">
+      <header className="space-y-12 lg:space-y-20">
         <Navbar />
         <Hero />
       </header>
-      <main className="space-y-4">
+      <main className="space-y-12 lg:space-y-20">
+        <About />
         <ProjectsSection />
         <Contacts />
       </main>

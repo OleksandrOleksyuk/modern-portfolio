@@ -48,7 +48,7 @@ h5 {
 }
 
 h6 {
-  font-size: 24px;
+  @apply text-lg md:text-xl lg:text-2xl text-gray-500 font-light;
 }
 
 input,
