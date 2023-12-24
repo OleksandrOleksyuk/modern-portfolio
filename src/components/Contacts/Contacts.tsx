@@ -32,7 +32,6 @@ const Contacts: React.FC = (): JSX.Element => {
               <label htmlFor="user_name">Your name</label>
               <input name="user_name" type="name" id="user_name" placeholder="Oleksandr Oleksyuk" required />
             </div>
-            <div></div>
             <div>
               <label htmlFor="user_email">Your email</label>
               <input name="user_email" type="email" id="user_email" placeholder="dev.oleksandr@outlook.it" required />

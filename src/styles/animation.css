@@ -5,6 +5,9 @@
 .loading-line-box-container {
   animation: loadingLineBoxContainer 5s forwards;
 }
-.fadeInScale {
+.fade-in-scale {
   animation: FadeInScale 1s forwards;
+}
+.animation-opacity {
+  animation: AnimationOpacity 0.3s forwards;
 }
