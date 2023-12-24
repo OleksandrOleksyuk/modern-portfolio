@@ -10,9 +10,9 @@ const Navbar: React.FC = () => {
   const toggleIsOpenMenu = () => setisOpenMenu((isOpen) => !isOpen);
   return (
     <nav className="flex flex-wrap items-center justify-between">
-      <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+      <Link to={"home"} className="flex items-center space-x-3 rtl:space-x-reverse">
         <img src={logoWhite} width={200} alt="Flowbite Logo" />
-      </a>
+      </Link>
       <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
         <Button type="button" color="primary" link="contact">
           Contact
