@@ -1,6 +1,6 @@
 import React from "react";
 import Project from "./components/Project";
-import { projectEl } from "../../constants";
+import { projectEl } from "@/constants/index";
 
 const ProjectsSection: React.FC = () => {
   return (

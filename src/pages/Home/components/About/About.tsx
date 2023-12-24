@@ -1,7 +1,5 @@
+import { Section1, Section2, Section3 } from "@/assets/index";
 import React from "react";
-import Section1 from "../../assets/section-1.jpg";
-import Section2 from "../../assets/section-2.jpg";
-import Section3 from "../../assets/section-3.jpg";
 
 const About1: React.FC = () => {
   return (

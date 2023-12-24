@@ -1,6 +1,6 @@
 import React from "react";
 import { ArrowRightIcon, ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
-import Button from "../../Button/Button";
+import { Button } from "@/components/index";
 
 interface ProjectProps {
   id: number;

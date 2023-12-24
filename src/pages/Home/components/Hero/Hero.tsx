@@ -1,7 +1,8 @@
 import React from "react";
-import HeroImage from "../../assets/hero.jpg";
-import { Button, NewBannerProject } from "..";
+import { Button } from "@/components/";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
+import NewBannerProject from "../NewBannerProject/NewBannerProject";
+import { HeroImage } from "@/assets/index";
 
 const Hero: React.FC = () => {
   return (
