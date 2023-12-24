@@ -3,7 +3,16 @@ import css from "../assets/stack/css.svg";
 import react from "../assets/stack/react.svg";
 import typescript from "../assets/stack/typescript.svg";
 
-export const navEl = ["Home", "About me", "Project"];
+export const navEl = [
+  {
+    path: "home",
+    title: "Home",
+  },
+  {
+    path: "blog",
+    title: "Blog",
+  },
+];
 
 export const projectEl = [
   {

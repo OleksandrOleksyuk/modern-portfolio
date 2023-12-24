@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import logoWhite from "../../assets/oleksandr-logo-white.png";
-import { navEl } from "../../constants";
-import { Button } from "..";
+import { Link } from "react-router-dom";
+import { navEl } from "@/constants/index";
+import { logoWhite } from "@/assets/index";
+import { Button } from "@/components/";
 import { Bars3BottomRightIcon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const Navbar: React.FC = () => {
@@ -29,11 +30,11 @@ const Navbar: React.FC = () => {
         id="navbar-sticky"
       >
         <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
-          {navEl.map((element) => (
-            <li key={element}>
-              <a href="#" aria-current="page" className="p-2 block">
-                {element}
-              </a>
+          {navEl.map(({ title, path }) => (
+            <li key={title}>
+              <Link to={path} aria-current="page" className="p-2 block">
+                {title}
+              </Link>
             </li>
           ))}
         </ul>

@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Navbar } from "@/components/";
-import { Home, Starter } from "./pages";
+import { Blog, Home, Starter } from "./pages";
 
 interface AppProps {
   // Definisci le props qui
@@ -15,6 +15,7 @@ const App: React.FC<AppProps> = () => {
         <Routes>
           <Route index element={<Starter />} />
           <Route path="home" element={<Home />} />
+          <Route path="blog" element={<Blog />} />
         </Routes>
       </main>
     </BrowserRouter>
